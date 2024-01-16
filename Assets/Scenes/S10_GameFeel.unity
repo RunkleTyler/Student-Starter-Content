@@ -687,9 +687,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2691200613816699561, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+    - target: {fileID: 2528254839907713293, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614020164230542718, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691200613816699561, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2932330574319167231, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -769,6 +777,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5626323066274226089, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626323066274226090, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5626323066274226092, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
@@ -935,6 +947,10 @@ PrefabInstance:
       propertyPath: onObjectEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6600856619697714924, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.0000001049073
+      objectReference: {fileID: 0}
     - target: {fileID: 7475450657129159161, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1031,9 +1047,7 @@ PrefabInstance:
       propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8848011819977989211, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
-    - {fileID: 2331040305302629347, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
 --- !u!1 &7627786620421069817 stripped
 GameObject:
@@ -1047,7 +1061,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7627786620421069817}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: b6008f7ac1bf06642ab72cb580b156e0, type: 2}
   m_IsTrigger: 0
