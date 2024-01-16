@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 375226088063364274, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1037364208866069336, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_Enabled
@@ -816,16 +816,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: sCoyoteTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: kickVelocity
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: addKickerVelocity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: addTargetVelocity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: onKickAttempted.m_PersistentCalls.m_Calls.Array.size
@@ -985,7 +989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
+<<<<<<< HEAD
       value: 0.09310344
+=======
+      value: 0.08956522
+>>>>>>> d9a68ab3a85cd321acda654aa37b7e6f701568f9
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -993,7 +1001,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
+<<<<<<< HEAD
       value: 0.8137931
+=======
+      value: 0.82086957
+>>>>>>> d9a68ab3a85cd321acda654aa37b7e6f701568f9
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -1013,7 +1025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7849287788267027987, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8148912452235401669, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_Enabled
