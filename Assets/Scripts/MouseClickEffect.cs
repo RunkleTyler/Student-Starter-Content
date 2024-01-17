@@ -9,6 +9,13 @@ using UnityEngine;
 // RV used for sound when clicking. I changed from button to just Left Click. 
 // Rafael Vicuna tutorial: https://www.youtube.com/watch?v=HtiWt0SWxk8
 
+// Custom Cursor (not in this script, but part of this assignment so including here for reference)
+// bendux tutorial: https://www.youtube.com/watch?v=ELhg7ge2rIA
+// Also if an error is encountered: https://forum.unity.com/threads/invalid-texture-used-for-cursor-check-importer-settings-warning-spam-since-unity-5-4-update.435004/
+// From that unity forums I had to do the "check Read/Write Enabled in Advanced"
+// The below link is for changing Cursor based on what you're hovering over... TODO: Implement
+// https://docs.unity3d.com/ScriptReference/Cursor.SetCursor.html
+
 public class MouseClickEffect : MonoBehaviour
 {
     [SerializeField] private ParticleSystem testParticleSystem = default;   // GG
